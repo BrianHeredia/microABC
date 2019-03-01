@@ -1,0 +1,28 @@
+.first{
+    font-family: 'Ubuntu', 'sans-serif';
+    display: flex;
+    align-items: center;
+    color:#1d1b1b;
+    font-size: 2vw;
+}
+#vector{
+    max-width: 20rem;
+}
+.container{
+    margin: 0;
+    padding: 1em;
+    padding-left: 3em;  
+}
+
+@media screen and (max-width: 1018px) {
+    #vector {   
+      max-width: 15rem; 
+    }
+    
+  }
+  @media screen and (max-width: 450px) {
+    #vector {   
+      max-width: 10rem; 
+    }
+    
+  }
