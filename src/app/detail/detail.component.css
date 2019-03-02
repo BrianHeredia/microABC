@@ -1,0 +1,16 @@
+h1,img,h3,p{
+    margin: 1em;
+}
+div{
+    text-align: center;
+    background-color: #f9d342;
+    padding: 1em;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    border-style: outset;
+    margin-left: 1em;
+    margin-right: 2em;
+}

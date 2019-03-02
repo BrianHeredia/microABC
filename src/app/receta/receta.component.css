@@ -1,12 +1,8 @@
-ul{
-    border-style: solid;
-}
+
 li{
     display: flex;
     align-items: center;
     padding: 1em;
-    border-bottom-style: solid;
-    background-color: white;
 }
 img{
     width: 150px;
@@ -25,7 +21,15 @@ button{
     border-style: none;
     border-radius: 30px;
 }
+h2{
+    color: white;
+}
 h1{
-    font-family: 'Pacifico', cursive;
-    margin-bottom: 1em;
+    margin: 1em;
+    font-size: 50px;
+    color: #292826;
+}
+a{
+    text-decoration: none;
+    color: #292826;
 }

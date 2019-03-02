@@ -1,0 +1,16 @@
+<div>
+    <h1>{{recipe.name}}</h1>
+    <img src="{{recipe.image}}" alt="{{recipe.id}}">
+    <h3>Breve descripción de la receta:</h3>
+    <p> {{recipe.description}}</p>
+    <h3>Tags:</h3>
+    <p *ngFor = "let tag of recipe.tag">{{tag}}</p>
+    <h3>Ingredientes:</h3>
+    <p *ngFor = "let ingrediente of recipe.ingredient">{{ingrediente.amount}} {{ingrediente.unit}} {{ingrediente.name}}</p>
+    <p *ngFor = "let ingrediente of recipe.ingredientGroup"> {{ingrediente.name}} </p>
+
+    
+    <h3>Receta:</h3>
+    <p *ngFor = "let paso of recipe.step"> {{ paso.description}}</p>
+    
+</div>

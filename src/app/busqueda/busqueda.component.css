@@ -1,0 +1,25 @@
+form{
+    padding: 1em;
+    margin:1em;
+}
+#src{
+    width:80%;
+    height: 35px;
+    border-style: solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color:#292826;
+}
+#btn{
+    width:20%;
+    height: 35px;
+    font-size: 15px;
+    background-color: #f9d342 ;
+    color: #292826;
+    font-weight: bold;
+    border-style: solid;
+    border-color:#292826;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right-style: none;
+}
