@@ -1,28 +1,39 @@
-.first{
-    font-family: 'Ubuntu', 'sans-serif';
-    display: flex;
-    align-items: center;
-    color:#1d1b1b;
-    font-size: 2vw;
-}
 #vector{
     max-width: 20rem;
+    margin: 10px;
 }
 .container{
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
     margin: 0;
-    padding: 1em;
+    padding: 2em;
     padding-left: 3em;  
+    border-style: solid;
+    border-radius: 20px;
+
+    margin: 1em;
+    background-image: radial-gradient(#f9d342, #f5c710d3)
 }
+p{
+  margin-top: 1em;
+}
+
 
 @media screen and (max-width: 1018px) {
     #vector {   
       max-width: 15rem; 
     }
-    
+  }
+  @media screen and (max-width: 650px) {
+    .container{
+      flex-direction: column;
+    }
   }
   @media screen and (max-width: 450px) {
     #vector {   
       max-width: 10rem; 
     }
-    
   }
+  
+  

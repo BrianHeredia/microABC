@@ -1,0 +1,31 @@
+ul{
+    border-style: solid;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    border-bottom-style: solid;
+    background-color: white;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    border-style: outset;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+button{
+    margin-top: 1em;
+    padding: 0.5em;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: #f9d342;
+    border-style: none;
+    border-radius: 30px;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 1em;
+}

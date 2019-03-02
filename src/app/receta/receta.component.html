@@ -1,0 +1,12 @@
+<h1>Recetario de Bordon Damsay</h1>
+<ul>
+    
+      <li *ngFor = "let receta of recipes"> 
+        <img src="{{receta.image}}" alt="{{receta.name}}">  
+        <div>
+            <h2>{{receta.name}} </h2>
+            <button>Ir a receta</button>
+        </div>
+        
+      </li>
+</ul>
