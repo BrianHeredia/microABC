@@ -9,8 +9,10 @@ import { DataService } from '../services/data.service';
 export class ChefComponent implements OnInit {
 
   constructor(private dataService: DataService) { }
+  public info;
 
   ngOnInit() {
+    this.info = this.dataService.getRestInfo();
   }
 
 }
